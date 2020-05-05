@@ -1,4 +1,4 @@
-package com.tunisietelecom.HelloTunisia;
+package com.label.HelloLabel;
 
 import java.time.LocalDateTime;
 
@@ -12,11 +12,11 @@ public class TnRestController {
 	@GetMapping("/hello")
 	public String getHello() {
 		//return "error";
-			return "Welcome to Tunisie Telecom - Microservices Demo";
+			return "Welcome to Label Vie - Microservices Demo";
 		
 	}
 	@GetMapping("/time")
 	public String getLocalTime() {
-		return "Time in tunisia is " + LocalDateTime.now();
+		return "Time in Morocco is " + LocalDateTime.now();
 	}
 }

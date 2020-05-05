@@ -1,13 +1,13 @@
-package com.tunisietelecom.HelloTunisia;
+package com.label.HelloLabel;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class HelloTunisiaApplication {
+public class HelloLabel {
 
 	public static void main(String[] args) {
-		SpringApplication.run(HelloTunisiaApplication.class, args);
+		SpringApplication.run(HelloLabel.class, args);
 	}
 
 }
