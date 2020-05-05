@@ -2,7 +2,7 @@
 FROM ibmjava:8-sfj
 LABEL maintainer="IBM Java Engineering at IBM Cloud"
 
-COPY ./target/HelloTunisia-0.0.1-SNAPSHOT.jar /app.jar
+COPY ./target/HelloLabel.jar /app.jar
 
 
 ENV JAVA_OPTS=""
